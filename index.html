@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Figura &amp; Postura — Reformer Pilates i kineziterapija u Novom Sadu</title>
+  <meta name="description" content="Butik studio za Reformer Pilates i kineziterapiju u Novom Sadu. Individualan pristup, za svaki nivo. Zakaži besplatan probni trening.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Figura &amp; Postura">
+  <meta property="og:title" content="Figura &amp; Postura — Move better • Feel better">
+  <meta property="og:description" content="Reformer Pilates i kineziterapija u Novom Sadu. Zakaži besplatan probni trening.">
+  <!-- og:image mora biti apsolutna adresa da bi se pregled linka prikazao u poruci (fajl: images/hero.jpg) -->
+  <meta property="og:image" content="https://branko8900.github.io/demo/figura-postura/images/hero.jpg">
+  <meta property="og:image:alt" content="Grupni čas na reformerima u studiju Figura &amp; Postura">
+  <meta property="og:locale" content="sr_RS">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#F4EEE6">
+
+  <link rel="icon" href="favicon.png" type="image/png" sizes="96x96">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&amp;family=Jost:wght@300;400;500&amp;family=Pinyon+Script&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.className = 'js';</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Linijske ikonice (stroke 1.5) -->
+<svg class="sr-samo" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="i-tel" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><path d="M17.4 6.6h.01"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11.5a7 7 0 1 0-14 0C5 14.900 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-sat" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <!-- kružni natpis za pečat -->
+  <symbol id="pecat-krug" viewBox="0 0 120 120">
+    <path id="pecat-putanja" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0" fill="none" stroke="none"/>
+    <text font-family="Jost, sans-serif" font-size="9.4" font-weight="500" fill="currentColor" stroke="none">
+      <textPath href="#pecat-putanja" textLength="280" lengthAdjust="spacing">BESPLATAN PROBNI TRENING • ZAKAŽI •</textPath>
+    </text>
+  </symbol>
+</svg>
+
+<a class="preskoci" href="#sadrzaj">Preskoči na sadržaj</a>
+<span class="senzor" id="senzor" aria-hidden="true"></span>
+
+<!-- ============ HEADER ============ -->
+<header class="zaglavlje" id="zaglavlje">
+  <div class="zaglavlje__in">
+    <a class="znak" href="#vrh" aria-label="Figura &amp; Postura, početak stranice">
+      <img src="images/logo.png" alt="" width="1484" height="896">
+    </a>
+
+    <nav class="nav" aria-label="Glavna navigacija">
+      <a href="#studio">Studio</a>
+      <a href="#usluge">Usluge</a>
+      <a href="#mirjana">Mirjana</a>
+      <a href="#kako-poceti">Kako početi</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="zaglavlje__desno">
+      <a class="dugme dugme--puno dugme--malo zaglavlje__cta" href="#kontakt">Zakaži probni trening</a>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="meni" aria-label="Otvori meni">
+        <span class="burger__linije" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Meni preko celog ekrana (mobilni) -->
+<div class="meni tamna" id="meni" inert>
+  <nav class="meni__nav" aria-label="Meni">
+    <a href="#studio">Studio</a>
+    <a href="#usluge">Usluge</a>
+    <a href="#mirjana">Mirjana</a>
+    <a href="#kako-poceti">Kako početi</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <div class="meni__dno">
+    <a class="dugme dugme--puno" href="#kontakt">Zakaži besplatan probni trening</a>
+    <p class="meni__veze">
+      <a href="tel:+38166071977">+381 66 071 977</a>
+      <a href="https://www.instagram.com/figura_postura/" target="_blank" rel="noopener">@figura_postura</a>
+    </p>
+    <p class="meni__slogan" lang="en">Move better • Feel better</p>
+  </div>
+</div>
+
+<main id="sadrzaj">
+  <span id="vrh"></span>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero" aria-labelledby="hero-naslov">
+    <!-- --poz podešava koji deo slike ostaje u kadru (object-position) -->
+    <figure class="hero__foto" style="--poz: 50% 60%">
+      <img src="images/hero.jpg" alt="Grupni čas na reformerima u svetlom studiju sa drvenim lamelama i belim zavesama" width="1200" height="2132" fetchpriority="high">
+    </figure>
+
+    <div class="hero__karta">
+      <a class="pecat" href="#kontakt" aria-label="Zakaži besplatan probni trening">
+        <svg class="pecat__krug" aria-hidden="true"><use href="#pecat-krug"/></svg>
+        <img class="pecat__znak" src="images/znak-krem.png" alt="" width="216" height="475">
+      </a>
+      <p class="nadnaslov" lang="en">Pilates &amp; Kinesiotherapy Studio</p>
+      <h1 class="hero__naslov" id="hero-naslov" lang="en">
+        <span class="caps">Move better.</span>
+        <span class="pisano">feel better.</span>
+      </h1>
+      <p class="hero__pod">Reformer Pilates i kineziterapija u Novom Sadu.</p>
+      <div class="dugmad">
+        <a class="dugme dugme--puno" href="#kontakt">Zakaži besplatan probni trening</a>
+        <a class="dugme" href="#studio">Pogledaj studio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tri kratke stavke -->
+  <ul class="traka-stavki tamna" role="list" aria-label="Naš pristup">
+    <li>Individualan pristup</li>
+    <li>Za svaki nivo</li>
+    <li>Sigurno i prijatno okruženje</li>
+  </ul>
+
+  <!-- ============ DOBRO DOŠLI ============ -->
+  <section class="sekcija sekcija--svetla" id="dobrodosli" aria-labelledby="dd-naslov">
+    <div class="omot dd">
+      <div class="kolaz reveal">
+        <figure class="foto kolaz__a" style="--poz: 50% 45%">
+          <img src="images/studio-zid.jpg" alt="Logo Figura &amp; Postura na belom zidu sa klasičnim lajsnama i biljkama" width="938" height="1669" loading="lazy">
+        </figure>
+        <figure class="foto kolaz__b" style="--poz: 50% 30%">
+          <img src="images/recepcija.jpg" alt="Recepcija studija sa logom na zidu i cvećem" width="1080" height="1105" loading="lazy">
+        </figure>
+      </div>
+
+      <div class="dd__tekst">
+        <h2 class="naslov reveal" id="dd-naslov">
+          <span class="caps">Dobro došli</span>
+          <span class="pisano">u Figuru <span class="amp">&amp;</span> Posturu</span>
+        </h2>
+        <p class="uvod reveal">Mesto na kojem se stručnost, pokret i briga o sebi susreću.</p>
+        <p class="reveal">Kroz Reformer Pilates i kineziterapiju dobijaš individualan pristup, podršku i prostor za napredak, bez obzira na prethodno iskustvo ili trenutnu fizičku spremnost.</p>
+        <p class="reveal">Želimo da se u studiju osećaš sigurno, prihvaćeno i motivisano. Da ne dolaziš samo zbog treninga, već i zbog osećaja da radiš nešto dobro za sebe.</p>
+      </div>
+    </div>
+
+    <div class="omot">
+      <p class="misao reveal">
+        <img src="images/znak.png" alt="" width="216" height="475" loading="lazy">
+        <span>Figura &amp; Postura je mesto gde pokret dobija smisao.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ USLUGE ============ -->
+  <section class="sekcija sekcija--krem" id="usluge" aria-labelledby="usluge-naslov">
+    <div class="omot">
+      <div class="glava glava--centar">
+        <h2 class="naslov naslov--centar reveal" id="usluge-naslov">
+          <span class="caps">Usluge</span>
+          <span class="pisano">pokret po tvojoj meri</span>
+        </h2>
+        <p class="glava__tekst reveal">Dva načina rada, isti cilj: da se krećeš bolje i da se u svom telu osećaš bolje.</p>
+      </div>
+
+      <div class="kartice">
+        <article class="kartica reveal" aria-labelledby="svc-r">
+          <figure class="foto kartica__foto" style="--poz: 50% 70%">
+            <img src="images/studio-1.jpg" alt="Reformeri u studiju Figura &amp; Postura" width="850" height="900" loading="lazy">
+          </figure>
+          <div class="kartica__telo">
+            <h3 class="kartica__naslov" id="svc-r" lang="en">Reformer Pilates</h3>
+            <p class="kartica__pod">otpor i podrška u istom pokretu</p>
+            <p>Reformer je sprava sa oprugama koja ti istovremeno daje otpor i podršku. Zato se svaka vežba prilagođava tvom nivou.</p>
+            <p>Za tebe, i ako tek počinješ, i ako već dugo vežbaš.</p>
+            <dl class="spec">
+              <div>
+                <dt>Format</dt>
+                <!-- PROVERITI SA KLIJENTOM: format treninga na reformeru (grupni u malim grupama / individualni / duo) i broj mesta u grupi -->
+                <dd>
+                  <span class="proveriti">[PROVERITI: grupni u malim grupama / individualni / duo]</span>
+                  <span class="proveriti">[PROVERITI: broj mesta u grupi]</span>
+                </dd>
+              </div>
+              <div>
+                <dt>Trajanje</dt>
+                <!-- PROVERITI SA KLIJENTOM: trajanje treninga na reformeru -->
+                <dd><span class="proveriti">[PROVERITI: trajanje treninga]</span></dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="kartica reveal" aria-labelledby="svc-k">
+          <figure class="foto kartica__foto" style="--poz: 50% 64%">
+            <img src="images/strunjaca.jpg" alt="Mirjana na strunjači ispred zida sa logom studija" width="960" height="1704" loading="lazy">
+          </figure>
+          <div class="kartica__telo">
+            <h3 class="kartica__naslov" id="svc-k">Kineziterapija</h3>
+            <p class="kartica__pod">vođeno stručno, korak po korak</p>
+            <p>Individualno vođen program vežbanja. U fokusu su kvalitet pokreta, stabilnost i pravilno držanje tela.</p>
+            <p>Program vodi Mirjana Đukić, master fizičkog vaspitanja i kineziterapije.</p>
+            <dl class="spec">
+              <div>
+                <dt>Format</dt>
+                <dd>Individualno</dd>
+              </div>
+              <div>
+                <dt>Trajanje</dt>
+                <!-- PROVERITI SA KLIJENTOM: trajanje i format kineziterapijskog treninga -->
+                <dd><span class="proveriti">[PROVERITI: trajanje treninga]</span></dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STUDIO ============ -->
+  <section class="sekcija sekcija--svetla" id="studio" aria-labelledby="studio-naslov">
+    <div class="omot">
+      <div class="glava">
+        <h2 class="naslov reveal" id="studio-naslov">
+          <span class="caps">Studio</span>
+          <span class="pisano">svetao i miran</span>
+        </h2>
+        <!-- PROVERITI SA KLIJENTOM: broj reformera u studiju -->
+        <p class="glava__tekst reveal">
+          Prostor posvećen pokretu, snazi i boljem osećaju u telu. Svetao je, miran i opremljen reformerima.
+          <span class="proveriti">[PROVERITI: broj reformera]</span>
+        </p>
+      </div>
+
+      <div class="galerija">
+        <button class="foto galerija__a reveal" type="button" data-lightbox style="--poz: 40% 50%" aria-label="Uvećaj sliku: vežbanje na reformeru">
+          <img src="images/reformer.jpg" alt="Nasmejana žena vežba sa trakama na reformeru" width="840" height="1350" loading="lazy">
+        </button>
+        <button class="foto galerija__c reveal" type="button" data-lightbox style="--poz: 50% 62%" aria-label="Uvećaj sliku: grupni čas na reformerima">
+          <img src="images/hero.jpg" alt="Grupni čas na reformerima u svetlom studiju sa drvenim lamelama i belim zavesama" width="1200" height="2132" loading="lazy">
+        </button>
+        <button class="foto galerija__b reveal" type="button" data-lightbox style="--poz: 50% 40%" aria-label="Uvećaj sliku: platnene torbe sa logom studija">
+          <img src="images/torbe.jpg" alt="Platnene torbe sa logom Figura &amp; Postura" width="830" height="660" loading="lazy">
+        </button>
+        <button class="foto galerija__d reveal" type="button" data-lightbox style="--poz: 50% 35%" aria-label="Uvećaj sliku: recepcija studija">
+          <img src="images/recepcija.jpg" alt="Recepcija studija sa logom na zidu i cvećem" width="1080" height="1105" loading="lazy">
+        </button>
+        <button class="foto galerija__e reveal" type="button" data-lightbox style="--poz: 50% 60%" aria-label="Uvećaj sliku: reformeri u studiju">
+          <img src="images/studio-1.jpg" alt="Reformeri u studiju Figura &amp; Postura" width="850" height="900" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MIRJANA ============ -->
+  <section class="sekcija tamna tamna--bordo" id="mirjana" aria-labelledby="mirjana-naslov">
+    <div class="omot mirjana">
+      <figure class="foto mirjana__foto reveal" style="--poz: 50% 34%">
+        <img src="images/mirjana.jpg" alt="Mirjana Đukić sedi na reformeru ispred zida sa logom studija" width="960" height="1704" loading="lazy">
+      </figure>
+
+      <div class="mirjana__tekst">
+        <h2 class="naslov reveal" id="mirjana-naslov">
+          <span class="caps">Mirjana Đukić</span>
+          <span class="pisano">osnivačica i instruktorka</span>
+        </h2>
+
+        <figure class="citat reveal">
+          <blockquote>
+            <p>Verujem da pokret nije samo način da izgradimo snažnije i zdravije telo, već i put ka boljem osećaju sebe, većem samopouzdanju i unutrašnjem balansu.</p>
+          </blockquote>
+          <figcaption>Mirjana, povodom otvaranja studija</figcaption>
+        </figure>
+
+        <dl class="spec spec--red reveal">
+          <div>
+            <dt>Obrazovanje</dt>
+            <dd>Master fizičkog vaspitanja i kineziterapije (MSc in PE &amp; Kinesiotherapy)</dd>
+          </div>
+          <div>
+            <dt>Trenutno</dt>
+            <dd>Na doktorskim studijama</dd>
+          </div>
+        </dl>
+
+        <a class="dugme reveal" href="https://www.instagram.com/mirjana.djukic_/" target="_blank" rel="noopener">
+          <svg class="ikona" aria-hidden="true"><use href="#i-ig"/></svg>
+          <span>@mirjana.djukic_</span>
+          <span class="sr-samo">(otvara se u novom prozoru)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KAKO POČETI ============ -->
+  <section class="sekcija sekcija--svetla" id="kako-poceti" aria-labelledby="kp-naslov">
+    <div class="omot">
+      <div class="glava glava--centar">
+        <h2 class="naslov naslov--centar reveal" id="kp-naslov">
+          <span class="caps">Kako početi</span>
+          <span class="pisano">u tri koraka</span>
+        </h2>
+      </div>
+
+      <ol class="koraci" role="list">
+        <li class="reveal">
+          <span class="koraci__br" aria-hidden="true">01</span>
+          <h3>Javi se</h3>
+          <p>Piši nam u DM na Instagramu ili pozovi <a href="tel:+38166071977">+381&nbsp;66&nbsp;071&nbsp;977</a>.</p>
+        </li>
+        <li class="reveal">
+          <span class="koraci__br" aria-hidden="true">02</span>
+          <h3>Besplatan probni trening</h3>
+          <p>Upoznaješ reformer i način na koji radimo.</p>
+        </li>
+        <li class="reveal">
+          <span class="koraci__br" aria-hidden="true">03</span>
+          <h3>Termini koji ti odgovaraju</h3>
+          <!-- PROVERITI SA KLIJENTOM: paketi i cene (koji paketi postoje, koliko treninga, koliko važe) -->
+          <p>Ako ti se dopadne, dogovaramo termine koji ti odgovaraju. <span class="proveriti">[PROVERITI: paketi]</span></p>
+        </li>
+      </ol>
+
+      <div class="dugmad dugmad--centar reveal">
+        <a class="dugme dugme--puno" href="#kontakt">Zakaži besplatan probni trening</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 1 VEŽBA ZA 1 NEDELJU ============ -->
+  <section class="sekcija sekcija--bela" id="vezba" aria-labelledby="vezba-naslov">
+    <div class="omot">
+      <div class="glava glava--centar">
+        <h2 class="naslov naslov--centar reveal" id="vezba-naslov">
+          <span class="caps">1 vežba</span>
+          <span class="pisano">za 1 nedelju</span>
+        </h2>
+        <p class="glava__tekst reveal">Naš serijal sa Instagrama. Jedna vežba koju možeš da isprobaš ove nedelje.</p>
+      </div>
+
+      <!-- Kartice vežbi iscrtava script.js iz niza "exercises" -->
+      <div class="vezbe" id="vezbe"></div>
+      <noscript>
+        <p class="bez-js"><a href="https://www.instagram.com/figura_postura/">Pogledaj serijal na Instagramu</a></p>
+      </noscript>
+    </div>
+  </section>
+
+  <!-- ============ RASPORED I CENE ============ -->
+  <section class="raspored" id="raspored" aria-labelledby="raspored-naslov">
+    <!-- PROVERITI SA KLIJENTOM: raspored termina i radno vreme. Kada stignu, ovde ide nedeljni raspored. -->
+    <!-- PROVERITI SA KLIJENTOM: cene i paketi. Kada stignu, ovde idu kartice paketa. -->
+    <figure class="foto raspored__foto" style="--poz: 50% 45%">
+      <img src="images/torbe.jpg" alt="Platnene torbe sa logom Figura &amp; Postura" width="830" height="660" loading="lazy">
+    </figure>
+    <div class="raspored__tekst">
+      <h2 class="naslov reveal" id="raspored-naslov">
+        <span class="caps">Raspored i cenovnik</span>
+        <span class="pisano">šaljemo u poruci</span>
+      </h2>
+      <p class="reveal">Piši nam na Instagramu i poslaćemo ti aktuelni raspored termina i cenovnik.</p>
+      <a class="dugme dugme--puno reveal" href="https://ig.me/m/figura_postura" target="_blank" rel="noopener">
+        <svg class="ikona" aria-hidden="true"><use href="#i-ig"/></svg>
+        <span>Piši nam na Instagramu</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ ČESTA PITANJA ============ -->
+  <section class="sekcija sekcija--svetla" id="pitanja" aria-labelledby="pitanja-naslov">
+    <div class="omot omot--uzak">
+      <div class="glava glava--centar">
+        <h2 class="naslov naslov--centar reveal" id="pitanja-naslov">
+          <span class="caps">Česta pitanja</span>
+          <span class="pisano">i kratki odgovori</span>
+        </h2>
+      </div>
+
+      <div class="faq reveal">
+        <details>
+          <summary><span>Da li mi treba prethodno iskustvo?</span><span class="faq__znak" aria-hidden="true"></span></summary>
+          <div class="faq__odg"><p>Ne. Radimo sa svim nivoima i trening prilagođavamo svakome, bez obzira na prethodno iskustvo ili trenutnu fizičku spremnost.</p></div>
+        </details>
+        <details>
+          <summary><span>Kako da zakažem?</span><span class="faq__znak" aria-hidden="true"></span></summary>
+          <div class="faq__odg"><p>Piši nam u <a href="https://ig.me/m/figura_postura" target="_blank" rel="noopener">DM na Instagramu</a> ili pozovi <a href="tel:+38166071977">+381&nbsp;66&nbsp;071&nbsp;977</a>.</p></div>
+        </details>
+        <details>
+          <summary><span>Da li je probni trening besplatan?</span><span class="faq__znak" aria-hidden="true"></span></summary>
+          <div class="faq__odg"><p>Da. Probni trening je besplatan za nove klijente.</p></div>
+        </details>
+        <details>
+          <summary><span>Šta da obučem?</span><span class="faq__znak" aria-hidden="true"></span></summary>
+          <!-- PROVERITI SA KLIJENTOM: šta da se obuče i ponese na trening (odeća, čarape, peškir...) -->
+          <div class="faq__odg"><p><span class="proveriti">[PROVERITI: šta obući i poneti na trening]</span></p></div>
+        </details>
+        <details>
+          <summary><span>Koliko traje trening?</span><span class="faq__znak" aria-hidden="true"></span></summary>
+          <!-- PROVERITI SA KLIJENTOM: trajanje treninga -->
+          <div class="faq__odg"><p><span class="proveriti">[PROVERITI: trajanje treninga]</span></p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAKT ============ -->
+  <section class="sekcija tamna tamna--bordo" id="kontakt" aria-labelledby="kontakt-naslov">
+    <div class="omot kontakt">
+      <img class="kontakt__znak" src="images/znak-krem.png" alt="" width="216" height="475" loading="lazy">
+      <h2 class="naslov naslov--centar reveal" id="kontakt-naslov">
+        <span class="caps">Zakaži</span>
+        <span class="pisano">besplatan probni trening</span>
+      </h2>
+      <p class="uvod reveal">Pronađi svoj ritam, posveti se sebi i otkrij kako pokret može da promeni način na koji se osećaš.</p>
+      <div class="dugmad dugmad--centar reveal">
+        <a class="dugme dugme--puno" href="tel:+38166071977">
+          <svg class="ikona" aria-hidden="true"><use href="#i-tel"/></svg>
+          <span>Pozovi</span>
+        </a>
+        <a class="dugme" href="https://ig.me/m/figura_postura" target="_blank" rel="noopener">
+          <svg class="ikona" aria-hidden="true"><use href="#i-ig"/></svg>
+          <span>Piši nam na Instagramu</span>
+        </a>
+      </div>
+
+      <dl class="podaci reveal">
+        <div>
+          <dt><svg class="ikona" aria-hidden="true"><use href="#i-tel"/></svg>Telefon</dt>
+          <dd><a href="tel:+38166071977">+381 66 071 977</a></dd>
+        </div>
+        <div>
+          <dt><svg class="ikona" aria-hidden="true"><use href="#i-ig"/></svg>Instagram</dt>
+          <dd><a href="https://www.instagram.com/figura_postura/" target="_blank" rel="noopener">@figura_postura</a></dd>
+        </div>
+        <div>
+          <dt><svg class="ikona" aria-hidden="true"><use href="#i-pin"/></svg>Lokacija</dt>
+          <!-- PROVERITI SA KLIJENTOM: tačna adresa, sprat, ulaz. "TC Pariski magazin" stoji na njihovim platnenim torbama; na objavama je označen "Pariski magazin" (Kralja Aleksandra 12). Google mapu ugraditi tek kada adresa bude potvrđena. -->
+          <dd>TC Pariski magazin, Novi Sad <span class="proveriti">[PROVERITI: ulica, sprat, lokal]</span></dd>
+        </div>
+        <div>
+          <dt><svg class="ikona" aria-hidden="true"><use href="#i-sat"/></svg>Radno vreme</dt>
+          <!-- PROVERITI SA KLIJENTOM: radno vreme studija -->
+          <dd><span class="proveriti">[PROVERITI: radno vreme]</span></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="podnozje tamna" id="podnozje">
+  <div class="omot podnozje__in">
+    <div class="podnozje__znak">
+      <img src="images/logo-krem.png" alt="Figura &amp; Postura" width="1484" height="896" loading="lazy">
+      <p class="podnozje__slogan" lang="en">Move better • Feel better</p>
+    </div>
+    <ul class="podnozje__veze" role="list">
+      <li><a href="https://www.instagram.com/figura_postura/" target="_blank" rel="noopener"><svg class="ikona" aria-hidden="true"><use href="#i-ig"/></svg><span>@figura_postura</span></a></li>
+      <li><a href="tel:+38166071977"><svg class="ikona" aria-hidden="true"><use href="#i-tel"/></svg><span>+381 66 071 977</span></a></li>
+    </ul>
+    <p class="podnozje__kraj">Vidimo se u studiju 🤎</p>
+    <div class="podnozje__dno">
+      <p>© 2026 Figura &amp; Postura</p>
+      <p>Demo verzija sajta</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Fiksirana traka (samo mobilni): pojavljuje se posle hero sekcije, sklanja se kod kontakta i footera -->
+<div class="traka" id="traka">
+  <a class="dugme" href="tel:+38166071977">
+    <svg class="ikona" aria-hidden="true"><use href="#i-tel"/></svg>
+    <span>Pozovi</span>
+  </a>
+  <a class="dugme dugme--puno" href="https://ig.me/m/figura_postura" target="_blank" rel="noopener">
+    <svg class="ikona" aria-hidden="true"><use href="#i-ig"/></svg>
+    <span>Piši u DM</span>
+  </a>
+</div>
+
+<!-- Lightbox -->
+<dialog class="lb" id="lb" aria-label="Uvećana slika">
+  <button class="lb__x" id="lb-x" type="button" aria-label="Zatvori">
+    <svg class="ikona" aria-hidden="true"><use href="#i-x"/></svg>
+  </button>
+  <figure class="lb__fig">
+    <img id="lb-img" src="" alt="">
+    <figcaption id="lb-opis"></figcaption>
+  </figure>
+</dialog>
+
+</body>
+</html>
